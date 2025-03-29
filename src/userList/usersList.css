@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userListContainer{
+    background-color: rgb(237, 208, 170);
+    width: 100%;
+}
+.userList{
+    padding:0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.pagination>button{
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pagination>button:hover{
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+}
